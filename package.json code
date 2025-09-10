@@ -1,0 +1,33 @@
+{
+  "name": "chatgpt-landing-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example Next.js site using OpenAI package",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "openai": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "nextjs",
+    "example"
+  ],
+  "license": "MIT"
+}
