@@ -1,0 +1,17 @@
+pipeline {
+    agent{
+     node{
+     label "Java_slave"
+    }
+   }
+    environment {
+        PATH - "/Opt /Maven/bin:$PATH"
+     }
+     stages{
+          stage("build code"){
+              steps{
+                  bat 'Maven clean install'
+               }
+           }
+       }
+    }
