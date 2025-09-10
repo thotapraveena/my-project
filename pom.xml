@@ -1,0 +1,29 @@
+<project xml="http://maven.apache.org/POM/4.0." xmlns="http://www.w3.org/2001/xmlschema.instance"
+xsi:schemalocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/POM/4.0.0/Maven.v4_0_0.xsd"
+<modelversion>4.0.0</modelversion>
+<groupid>com.example<groupid>
+artifactid>my-app</artifactid>
+<version>1.0.0</version>
+<packaging>jar</packaging>
+<dependencies>
+<dependency>
+<groupid>org.spring framework<groupid>
+<artifact id>spring.core</artifactid>
+<version>5.3.9</version>
+</dependency>
+</dependencies>
+
+</project>
+<modelversion>4.0.0</modelversion>
+<groupid>com.example<groupid>
+artifactid>my-app</artifactid>
+<version>1.0.0</version>
+<packaging>jar</packaging>
+<dependencies>
+<dependency>
+<groupid>org.spring framework<groupid>
+<artifact id>spring.core</artifactid>
+<version>5.3.9</version>
+</dependency>
+</dependencies>
+</project>
